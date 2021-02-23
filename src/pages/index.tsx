@@ -4,6 +4,7 @@ import Head from 'next/head';
 
 import styles from '../styles/pages/Home.module.css';
 import { SlideBanner } from "../components/SlideBanner";
+import { FeatureContent } from "../components/FeatureContent";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Header/>
       <SlideBanner/>
+      <FeatureContent/>
     </div>
   )
 }
